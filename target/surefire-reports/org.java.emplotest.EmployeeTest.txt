@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.java.emplotest.EmployeeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.127 s <<< FAILURE! - in org.java.emplotest.EmployeeTest
+testValidEmployee  Time elapsed: 0.074 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Antonio> but was: <Novelli>
+	at org.java.emplotest.EmployeeTest.testValidEmployee(EmployeeTest.java:20)
+
