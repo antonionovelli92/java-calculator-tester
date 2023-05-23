@@ -19,7 +19,7 @@ public class Employee {
             throw new IllegalArgumentException("Ruolo non valido");
         }
 
-        setNome(cognome);
+        setNome(nome);
         setCognome(cognome);
         setDataDiNascita(dataDiNascita);
         setRuolo(ruolo);
