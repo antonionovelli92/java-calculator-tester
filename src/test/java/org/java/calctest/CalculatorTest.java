@@ -24,10 +24,10 @@ public class CalculatorTest {
     public void testSubtract() {
         float num1 = random.nextFloat();
         float num2 = random.nextFloat();
-        float expected = num1 - num2;
+        float t = num1 - num2;
 
         float result = calculator.subtract(num1, num2);
-        assertEquals(expected, result, 0.0001f);
+        assertEquals(t, result, 0.0001f);
     }
 
     @Test
@@ -38,10 +38,10 @@ public class CalculatorTest {
         	// Evito la divisione per zero
             num2 = random.nextFloat() + 0.1f; 
         }
-        float expected = num1 / num2;
+        float t = num1 / num2;
 
         float result = calculator.divide(num1, num2);
-        assertEquals(expected, result, 0.0001f);
+        assertEquals(t, result, 0.0001f);
     }
 
     @Test
@@ -55,9 +55,9 @@ public class CalculatorTest {
     public void testMultiply() {
         float num1 = random.nextFloat();
         float num2 = random.nextFloat();
-        float expected = num1 * num2;
+        float t = num1 * num2;
 
         float result = calculator.multiply(num1, num2);
-        assertEquals(expected, result, 0.0001f);
+        assertEquals(t, result, 0.0001f);
     }
 }
